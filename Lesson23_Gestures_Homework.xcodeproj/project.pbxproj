@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D82F63824D33249001594A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F63724D33249001594A5 /* AppDelegate.swift */; };
+		6D82F63A24D33249001594A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F63924D33249001594A5 /* SceneDelegate.swift */; };
+		6D82F63C24D33249001594A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F63B24D33249001594A5 /* ViewController.swift */; };
+		6D82F63F24D33249001594A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D82F63D24D33249001594A5 /* Main.storyboard */; };
+		6D82F64124D3324B001594A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D82F64024D3324B001594A5 /* Assets.xcassets */; };
+		6D82F64424D3324B001594A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D82F64224D3324B001594A5 /* LaunchScreen.storyboard */; };
+		6D82F64F24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F64E24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.swift */; };
+		6D82F65A24D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82F65924D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D82F64B24D3324C001594A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D82F62C24D33249001594A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D82F63324D33249001594A5;
+			remoteInfo = Lesson23_Gestures_Homework;
+		};
+		6D82F65624D3324C001594A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D82F62C24D33249001594A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D82F63324D33249001594A5;
+			remoteInfo = Lesson23_Gestures_Homework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D82F63424D33249001594A5 /* Lesson23_Gestures_Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson23_Gestures_Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D82F63724D33249001594A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D82F63924D33249001594A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D82F63B24D33249001594A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D82F63E24D33249001594A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D82F64024D3324B001594A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D82F64324D3324B001594A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D82F64524D3324B001594A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D82F64A24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson23_Gestures_HomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D82F64E24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson23_Gestures_HomeworkTests.swift; sourceTree = "<group>"; };
+		6D82F65024D3324C001594A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D82F65524D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson23_Gestures_HomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D82F65924D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson23_Gestures_HomeworkUITests.swift; sourceTree = "<group>"; };
+		6D82F65B24D3324C001594A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D82F63124D33249001594A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D82F64724D3324C001594A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D82F65224D3324C001594A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D82F62B24D33249001594A5 = {
+			isa = PBXGroup;
+			children = (
+				6D82F63624D33249001594A5 /* Lesson23_Gestures_Homework */,
+				6D82F64D24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests */,
+				6D82F65824D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests */,
+				6D82F63524D33249001594A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D82F63524D33249001594A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D82F63424D33249001594A5 /* Lesson23_Gestures_Homework.app */,
+				6D82F64A24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.xctest */,
+				6D82F65524D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D82F63624D33249001594A5 /* Lesson23_Gestures_Homework */ = {
+			isa = PBXGroup;
+			children = (
+				6D82F63724D33249001594A5 /* AppDelegate.swift */,
+				6D82F63924D33249001594A5 /* SceneDelegate.swift */,
+				6D82F63B24D33249001594A5 /* ViewController.swift */,
+				6D82F63D24D33249001594A5 /* Main.storyboard */,
+				6D82F64024D3324B001594A5 /* Assets.xcassets */,
+				6D82F64224D3324B001594A5 /* LaunchScreen.storyboard */,
+				6D82F64524D3324B001594A5 /* Info.plist */,
+			);
+			path = Lesson23_Gestures_Homework;
+			sourceTree = "<group>";
+		};
+		6D82F64D24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D82F64E24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.swift */,
+				6D82F65024D3324C001594A5 /* Info.plist */,
+			);
+			path = Lesson23_Gestures_HomeworkTests;
+			sourceTree = "<group>";
+		};
+		6D82F65824D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D82F65924D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.swift */,
+				6D82F65B24D3324C001594A5 /* Info.plist */,
+			);
+			path = Lesson23_Gestures_HomeworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D82F63324D33249001594A5 /* Lesson23_Gestures_Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D82F65E24D3324C001594A5 /* Build configuration list for PBXNativeTarget "Lesson23_Gestures_Homework" */;
+			buildPhases = (
+				6D82F63024D33249001594A5 /* Sources */,
+				6D82F63124D33249001594A5 /* Frameworks */,
+				6D82F63224D33249001594A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lesson23_Gestures_Homework;
+			productName = Lesson23_Gestures_Homework;
+			productReference = 6D82F63424D33249001594A5 /* Lesson23_Gestures_Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D82F64924D3324C001594A5 /* Lesson23_Gestures_HomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D82F66124D3324C001594A5 /* Build configuration list for PBXNativeTarget "Lesson23_Gestures_HomeworkTests" */;
+			buildPhases = (
+				6D82F64624D3324C001594A5 /* Sources */,
+				6D82F64724D3324C001594A5 /* Frameworks */,
+				6D82F64824D3324C001594A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D82F64C24D3324C001594A5 /* PBXTargetDependency */,
+			);
+			name = Lesson23_Gestures_HomeworkTests;
+			productName = Lesson23_Gestures_HomeworkTests;
+			productReference = 6D82F64A24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D82F65424D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D82F66424D3324C001594A5 /* Build configuration list for PBXNativeTarget "Lesson23_Gestures_HomeworkUITests" */;
+			buildPhases = (
+				6D82F65124D3324C001594A5 /* Sources */,
+				6D82F65224D3324C001594A5 /* Frameworks */,
+				6D82F65324D3324C001594A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D82F65724D3324C001594A5 /* PBXTargetDependency */,
+			);
+			name = Lesson23_Gestures_HomeworkUITests;
+			productName = Lesson23_Gestures_HomeworkUITests;
+			productReference = 6D82F65524D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D82F62C24D33249001594A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Alexander Germek";
+				TargetAttributes = {
+					6D82F63324D33249001594A5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					6D82F64924D3324C001594A5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6D82F63324D33249001594A5;
+					};
+					6D82F65424D3324C001594A5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6D82F63324D33249001594A5;
+					};
+				};
+			};
+			buildConfigurationList = 6D82F62F24D33249001594A5 /* Build configuration list for PBXProject "Lesson23_Gestures_Homework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D82F62B24D33249001594A5;
+			productRefGroup = 6D82F63524D33249001594A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D82F63324D33249001594A5 /* Lesson23_Gestures_Homework */,
+				6D82F64924D3324C001594A5 /* Lesson23_Gestures_HomeworkTests */,
+				6D82F65424D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D82F63224D33249001594A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D82F64424D3324B001594A5 /* LaunchScreen.storyboard in Resources */,
+				6D82F64124D3324B001594A5 /* Assets.xcassets in Resources */,
+				6D82F63F24D33249001594A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D82F64824D3324C001594A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D82F65324D3324C001594A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D82F63024D33249001594A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D82F63C24D33249001594A5 /* ViewController.swift in Sources */,
+				6D82F63824D33249001594A5 /* AppDelegate.swift in Sources */,
+				6D82F63A24D33249001594A5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D82F64624D3324C001594A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D82F64F24D3324C001594A5 /* Lesson23_Gestures_HomeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D82F65124D3324C001594A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D82F65A24D3324C001594A5 /* Lesson23_Gestures_HomeworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D82F64C24D3324C001594A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D82F63324D33249001594A5 /* Lesson23_Gestures_Homework */;
+			targetProxy = 6D82F64B24D3324C001594A5 /* PBXContainerItemProxy */;
+		};
+		6D82F65724D3324C001594A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D82F63324D33249001594A5 /* Lesson23_Gestures_Homework */;
+			targetProxy = 6D82F65624D3324C001594A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D82F63D24D33249001594A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D82F63E24D33249001594A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D82F64224D3324B001594A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D82F64324D3324B001594A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D82F65C24D3324C001594A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D82F65D24D3324C001594A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D82F65F24D3324C001594A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson23_Gestures_Homework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agermek.Lesson23-Gestures-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D82F66024D3324C001594A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson23_Gestures_Homework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agermek.Lesson23-Gestures-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D82F66224D3324C001594A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson23_Gestures_HomeworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agermek.Lesson23-Gestures-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson23_Gestures_Homework.app/Lesson23_Gestures_Homework";
+			};
+			name = Debug;
+		};
+		6D82F66324D3324C001594A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson23_Gestures_HomeworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agermek.Lesson23-Gestures-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson23_Gestures_Homework.app/Lesson23_Gestures_Homework";
+			};
+			name = Release;
+		};
+		6D82F66524D3324C001594A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson23_Gestures_HomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agermek.Lesson23-Gestures-HomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lesson23_Gestures_Homework;
+			};
+			name = Debug;
+		};
+		6D82F66624D3324C001594A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson23_Gestures_HomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agermek.Lesson23-Gestures-HomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lesson23_Gestures_Homework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D82F62F24D33249001594A5 /* Build configuration list for PBXProject "Lesson23_Gestures_Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D82F65C24D3324C001594A5 /* Debug */,
+				6D82F65D24D3324C001594A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D82F65E24D3324C001594A5 /* Build configuration list for PBXNativeTarget "Lesson23_Gestures_Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D82F65F24D3324C001594A5 /* Debug */,
+				6D82F66024D3324C001594A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D82F66124D3324C001594A5 /* Build configuration list for PBXNativeTarget "Lesson23_Gestures_HomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D82F66224D3324C001594A5 /* Debug */,
+				6D82F66324D3324C001594A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D82F66424D3324C001594A5 /* Build configuration list for PBXNativeTarget "Lesson23_Gestures_HomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D82F66524D3324C001594A5 /* Debug */,
+				6D82F66624D3324C001594A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D82F62C24D33249001594A5 /* Project object */;
+}
